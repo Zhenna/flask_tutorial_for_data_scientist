@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Write your title!</title>
+</head>
+
+<body>
+
+    <!-- CSS Styling -->
+    <style>
+        h1 {text-align: center;}
+        h3 {text-align: center;}
+        div {text-align: center;}
+
+        .myButton {
+        border: maroon; 
+        background-color: brown;
+        color: white;
+        padding: 10px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+        }
+
+        .myDiv {
+        border: none;
+        background-color: none;
+        text-align: center;
+        }
+
+        body {
+        background-color: lightgrey;
+        font-family: verdana;
+        }
+    </style>
+
+    <h1>Welcome to my Flask App!</h1>
+    <h3>Press the buttons below to select the right template for your app.</h3><br>
+    
+    <!-- file uploader -->
+    <div class="myDiv">
+        <form  class="form-inline" action = "/text2text" method = "post" enctype="multipart/form-data">
+            <button class="myButton">Click here for text-to-text template</button>
+        </form>
+    </div>
+    
+    <div style="line-height:150%;">
+        <br>
+    </div>
+
+    <!-- submit button -->
+    <div class="myDiv">
+        <form action = "/image2image" method = "post">
+            <button class="myButton">Click here for image-to-image template</button>
+        </form>
+    </div>
+
+    <div style="line-height:150%;">
+        <br>
+    </div>
+
+</body>
+
+</html>
+
+
+<button class="myButton">Click here for drop-down list to csv template</button><br>

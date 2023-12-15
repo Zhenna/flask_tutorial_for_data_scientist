@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Odd-number detector</title>
+</head>
+
+<body>
+
+    <!-- CSS Styling -->
+    <style>
+        h1 {text-align: center;}
+        h3 {text-align: center;}
+        p {text-align: center;}
+        div {text-align: center;}
+
+        textarea {
+        resize: none;
+        }
+
+        .myButton {
+        border: none; 
+        background-color: rgb(127, 100, 61);
+        color: paleturquoise;
+        padding: 10px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+        }
+
+        .myDiv {
+        border: none;
+        background-color: none;
+        text-align: center;
+        }
+
+        body {
+        background-color: rgb(222, 220, 194);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: black
+        }
+    </style>
+
+    <h1>Grayscale Image Converter Web App</h1>
+    <p>This is an example of Web App UI to serve trained machine learning models with file (image) input.</p><br>
+    <h3>Grayscaled image:</h3>
+
+    <div style="line-height:150%;">
+        <br>
+    </div>
+
+    <!-- display user image -->
+    <div>   
+        <img src="{{ user_image }}" alt="Grayscaled Image">
+    </div>
+
+</body>
+
+</html>

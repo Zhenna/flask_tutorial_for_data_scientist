@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Odd-number detector</title>
+</head>
+
+<body>
+
+    <!-- CSS Styling -->
+    <style>
+        h1 {text-align: center;}
+        h3 {text-align: center;}
+        p {text-align: center;}
+        div {text-align: center;}
+
+        textarea {
+        resize: none;
+        }
+
+        .myButton {
+        border: none; 
+        background-color: darkslategrey;
+        color: white;
+        padding: 10px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+        }
+
+        .myDiv {
+        border: none;
+        background-color: none;
+        text-align: center;
+        }
+
+        body {
+        background-color: rgb(209, 120, 68);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: whitesmoke
+        }
+    </style>
+
+    <h1>Odder-number Detector Web App</h1>
+    <p>This is an example of Web App UI to serve trained machine learning models with text input.</p><br>
+
+    <!-- show response below -->
+    <div class="myDiv">
+        <h3>The number you entered was {{enteredNumber}}.</h3><br>
+        <h1>This is an {{odd_or_even}} number!</h1>
+    </div>
+
+</body>
+
+</html>
